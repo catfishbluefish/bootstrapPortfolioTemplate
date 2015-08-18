@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+  <!--Open Graph-->
+  <meta property="og:title" content="catfistori.com" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://catfistori.com" />
+  <meta property="og:image" content="http://catfistori.com/images/websitethumbnail.png" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" contenct="250" />
+ <!--End Open Graph-->
+  <meta charset="utf-8">
+  <title>cat.fistori</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:300' rel='stylesheet' type='text/css'>
+  <script src="js/jQuery.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/helper.js"></script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+  <div id="titleContainer">
+    <h1 id="titleName">cat.fistori</h1>
+
+    <div id="titleRole">
+      <a href="designportfolio/index.html">web design</a> || <a href="https://www.flickr.com/photos/catfistoriphotography">photography</a>
+      <p>click to view portfolios</p>
+     </div>
+
+    <h3 id="scroll">Resume<h3>
+    <a  id="scrollArrow" href="#header"><img id="scrollDown" src="images/arrow2.png" alt-"scroll down"></a>
+  </div>
+  <div id="main">
+    <ul id="topNav" class="flex-box">
+      <li><h3><a class="topMenu" href="#header">About Me</a></h3></li>
+      <li><h3><a class="topMenu" href="#workExperience">Work History</a></h3></li>
+      <li><h3><a class="topMenu" href="#projects">Projects</a></h3></li>
+      <li><h3><a class="topMenu" href="#education">Education</a></h3></li>
+     </ul>
+    <div id="header" class="center-content clear-fix">
+      <ul id="topContacts" class="flex-box"></ul>
+    </div>
+    <div class="imageFlex" style="clear: both;">
+    <div id="workExperience" class="gray">
+      <h2>Work Experience</h2>
+     </div>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+    </div>
+    <div id="education" class="gray">
+      <h2>Education</h2>
+    </div>
+    <div id="map-div">
+      <h2>Where I've Lived and Worked</h2>
+    </div>
+    <div id="letsConnect" class="blue">
+      <ul id="footerContacts" class="flex-box">
+      </ul>
+      <h3><a class="topMenu" href="https://github.com/catfishbluefish/frontend-nanodegree-resume">view the GitHub repo</a></h3>
+    </div>
+  </div>
+
+  <script src="js/resumeBuilder.js"></script>
+
+
+  <script type="text/javascript">
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('topContacts').style.display = 'none';
+    }
+    if(document.getElementsByTagName('h1').length === 0) {
+      document.getElementById('header').style.display = 'none';
+    }
+    if(document.getElementsByClassName('work-entry').length === 0) {
+      document.getElementById('workExperience').style.display = 'none';
+    }
+    if(document.getElementsByClassName('project-entry').length === 0) {
+      document.getElementById('projects').style.display = 'none';
+    }
+    if(document.getElementsByClassName('education-entry').length === 0) {
+      document.getElementById('education').style.display = 'none';
+    }
+    if(document.getElementsByClassName('flex-item').length === 0) {
+      document.getElementById('lets-connect').style.display = 'none';
+    }
+    if(document.getElementById('map') === null) {
+      document.getElementById('map-div').style.display = 'none';
+    }
+  </script>
+</body>
+</html>

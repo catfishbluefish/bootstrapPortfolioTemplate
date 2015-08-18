@@ -1,0 +1,131 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+
+body {
+  background: url('images/orange-turq.png') no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+
+#titleContainer {
+  text-align: center;
+margin-top: 25%;
+  margin-bottom: 10%;
+}
+
+#titleContainer h2 {
+  margin-top: 2%;
+}
+
+
+#titleName {
+  font-size: 65px;
+}
+/* Arrow image indicating to scroll down */
+#scrollDown {
+  opacity: 0.5;
+  max-width: 5%;
+  margin-bottom: 10%;
+
+}
+
+
+#titleContainer p {
+  margin-top: 15%;
+}
+
+
+#scrollDown:hover {
+  opacity: 1;
+}
+
+#topImages {
+  background-color: #57aca2;
+  padding: 5% 0 5% 0;
+
+
+}
+
+
+/** Navbar **/
+
+header .navbar {
+  margin-bottom: 0 !important;
+}
+
+header .navbar-default {
+  background-color: #7bc8bc;
+  border: none;
+}
+
+header .navbar .navbar-default li {
+  text-align: center;
+}
+
+ header .navbar-nav {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-left: 40%;
+}
+
+#topImages {
+  padding-left: 20%;
+}
+
+
+#topImages img {
+  opacity: .7;
+   border-radius:50px;
+  padding: 10px;
+}
+
+#topImages img:hover {
+  opacity: 1;
+}
+
+
+.project {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+
+.project img {
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.project img:hover {
+  opacity: 1;
+}
+
+
