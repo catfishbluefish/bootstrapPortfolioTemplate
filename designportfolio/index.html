@@ -25,59 +25,40 @@
   <div class="container-fluid" id="titleContainer">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
-        <h1>cat.fistori</h1>
-        <h2>web design & development</h2>
-        <p>Portfolio</p>
-        <a  id="scrollArrow" href="#topImages"><img id="scrollDown" src="images/arrow2.png" alt-"scroll down"></a>
-      </div>
-
-  </div>
-</div>
-   <nav class="navbar navbar-default" id="topNav" role="navigation">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-       </div><!-- navbar header -->
-       <div class="collapse navbar-collapse" id="collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#featured">Resume</a></li>
-          <li class="active"><a href="#featured">Web Design Portfolio</a></li>
-          <li><a href="#mission">Photography Portfolio</a></li>
-        </ul>
-       </div><!-- collapse navbar-collapse -->
-    </div><!-- container -->
-  </nav>
-</header>
-
-  </div>
-  <div class="main">
+          <h1 id="titleName">cat.fistori</h1>
+          <h2>web design & development</h2>
+          <p><a href="catfistori.com">Resume</a> || <a href="https://www.flickr.com/photos/catfistoriphotography">Photography</a><p>
+          <p id="portfolio">Portfolio</p>
+          <a  id="scrollArrow" href="#topImages"><img id="scrollDown" src="images/arrow2.png" alt-"scroll down"></a>
+      </div><!-- col -->
+  </div><!-- row -->
+</div><!-- titleContainer -->
     <div class="content container-fluid" id="topImages">
       <div class="row">
         <div class="col-md-12">
-        <a href="#project1"><img src="images/project1-2.jpg"></a>
-        <a href="#project2"><img src="images/project-2.jpg"></a>
-        <a href="#project3"><img src="images/project-3.jpg"></a>
-        <a href="#project4"><img src="images/project-4.jpg"></a>
-        <a href="#project5"><img src="images/project-5.jpg"></a>
-        <a href="#project6"><img src="images/allyrias-project.png"></a>
-
-      </div>
-     </div>
+          <ul class="topNav">
+            <li><a href="#project1"><img src="images/project1-2.jpg"></a></li>
+            <li><a href="#project2"><img src="images/project-2.jpg"></a></li>
+            <li><a href="#project3"><img src="images/project-3.jpg"></a></li>
+            <li><a href="#project4"><img src="images/project-4.jpg"></a></li>
+            <li><a href="#project5"><img src="images/project-5.jpg"></a></li>
+            <li><a href="#project6"><img src="images/allyrias-project.png"></a></li>
+          </ul>
+      </div><!-- col -->
+     </div><!-- row -->
     </div><!-- top images -->
+  </header>
 
-
+<div class="main">
   <div class="container project" id="project1">
     <div class="row">
       <div class="col-md-4">
        <a href="http://catfishbluefish.github.io/Project-1/"><img src="images/project1-2.jpg"></a>
       </div>
       <div class="col-md-8 description">
-      <a href="http://catfishbluefish.github.io/Project-1/"><h3>Udacity Project 1: Simple Responsive One Page Portfolio</h3></a>
+      <a href="http://catfishbluefish.github.io/Project-1/"><h3>Simple Responsive One Page Portfolio</h3></a>
+      <h4>Udacity Project 1</h4>
+      <p>HTML, CSS</p><br>
       <p>The first project in the Udacity Front-End Nanodegree program. The assignment serves as an introduction into making a single page portfolio using well formatted HTML, and CSS with the beginning building blocks of a CSS framework mimicing the Bootstrap grid system. The structure for the site focuses on a grid system of rows and columns to help students visualize how websites are set up. This is then appilied into a simple, responsive webpage.</p>
       <h4><a href="https://github.com/catfishbluefish/Project-1">View the GitHub Repo</a></h4>
     </div>
@@ -88,12 +69,14 @@
   <div class="container project" id="project2">
     <div class="row">
       <div class="col-md-4">
-        <a href="#"><img src="images/project-2.jpg"></a>
+        <a href="http://catfishbluefish.github.io/bootstrapTemplate/"><img src="images/project-2.jpg"></a>
        </div>
-       <div class="col-md-4">
-       <h3>Responsive Single Page BootStrap Template</h3>
-       <p>fgjhsfjglhfjhgf</P>
-       <h4><a href="#">View the GitHub Repo</a></h4>
+       <div class="col-md-8">
+       <a href="http://catfishbluefish.github.io/bootstrapTemplate/"><h3>Responsive Single Page BootStrap Template</h3></a>
+       <h4>Lynda.com - Bootstrap Layoutss: Responsive Single-Page Design with Ray Villalobos</h4>
+       <p>HTML, CSS, Javascript, jQuery, Bootstrap</p><br>
+       <p>A sample website created through a course on Lynda.com. This course introduces using the Bootstrap framework to create a beautiful fully-responsive single page website for a business. It uses bootstraps navigation, carousel, and grid systems and then customizes them using CSS.
+       <h4><a href="https://github.com/catfishbluefish/bootstrapTemplate">View the GitHub Repo</a></h4>
        </div>
    </div>
 </div>
@@ -103,12 +86,14 @@
   <div class="container project" id="project3">
     <div class="row">
       <div class="col-md-4">
-        <a href="#"><img src="images/project-3.jpg"></a>
+        <a href="http://catfishbluefish.github.io/frontend-nanodegree-resume/"><img src="images/project-3.jpg"></a>
        </div>
-       <div class="col-md-4">
-        <a href="#"><h3>Javascript Workflow</h3></a>
-        <p>afghfkghfsjkghf</p>
-        <h4><a href="#">View the GitHub Repo</a></4>
+       <div class="col-md-8">
+        <a href="http://catfishbluefish.github.io/frontend-nanodegree-resume/"><h3>Frontend Nanodegree Resume</h3></a>
+        <h4>Udacity - Project 2</h4>
+        <p>HTML, CSS, Javascript, jQuery, Google Maps API</p><br>
+        <p>The front page of catfistori.com was originally created as part of Udacity's Frontend Nanodegree program. This project is heavily focused on javascript and jQuery, using the append and prepend features to add content to the site through JSON rather than typing info directly into the HTML index file. This way new content can simply be added into a JSON elment and is then automatically formatted and added to the page. It also pulls location data and the Google Maps API to create an interactive map at the bottom of the page with pins for each location I've worked and studied.</p>
+        <h4><a href="https://github.com/catfishbluefish/frontend-nanodegree-resume">View the GitHub Repo</a></4>
        </div>
    </div>
  </div>
@@ -117,16 +102,46 @@
   <div class="container project" id="project4">
     <div class="row">
       <div class="col-md-4">
-        <a href="#"><img src="images/project-4.jpg"></a>
+        <a href="http://catfishbluefish.github.io/workflows/"><img src="images/project-4.jpg"></a>
        </div>
-       <div class="col-md-4">
-        <a href="#"><h3>Responsive Single Page Design</h3></a>
-        <p>afghfkghfsjkghf</p>
-        <h4><a href="#">View the GitHub Repo</a></4>
+       <div class="col-md-8">
+        <a href="http://catfishbluefish.github.io/workflows/"><h3>Responsive Single Page Design</h3></a>
+        <h4>Lynda.com - Project Workflows with Gulp.js, Git, and Browserify with Ray Villalobos</h4>
+        <p>HTML, CSS, Javascript, jQuery, Node, Git/GitHub, Gulp, Browserify, Mustache, Coffee</p><br>
+        <p>This course walks you through creating a fully responsive single page design with a focus on workflow. Using Node, Git, and Gulp, this project utilizes version control and live page reloading while editing. It also introduces Sass, javascript libraries such as Browserify, Coffee, Mustache, and automating the code minifiying process. </p>
+        <h4><a href="https://github.com/catfishbluefish/workflow">View the GitHub Repo</a></4>
        </div>
    </div>
  </div>
 
+ <div class="container project" id="project5">
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://github.com/catfishbluefish/bootstrapPortfolioTemplate"><img src="images/project-5.jpg"></a>
+    </div>
+      <div class="col-md-8">
+        <a href="https://github.com/catfishbluefish/bootstrapPortfolioTemplate"><h3>Responsive Bootstrap portfolio page</h3></a>
+        <p>HTML, CSS, Javascript, jQuery, Bootstrap</p><br>
+        <p>This webpage utilizes Bootstraps navigation and grid system to create a simple page to present my web design portfolio. This page is always being updated and improved upon.</p>
+        <a href="https://github.com/catfishbluefish/bootstrapPortfolioTemplate"><h4>View the GitHub Repo</h4></a>
+      </div><!-- col -->
+    </div><!-- row -->
+  </div><!-- container -->
+
+
+  <div class="container project" id="project6">
+    <div class="row">
+      <div class="col-md-4">
+        <a href="http://catfishbluefish.github.io/allyrias/"><img src="images/allyrias-project.png"></a>
+      </div>
+      <div class="col-md-8">
+        <a href="http://catfishbluefish.github.io/allyrias/"><h3>Allyrias: Sample E-commerce Site</h3></a>
+        <p>HTML, CSS, Javascript, jQuery, Bootstrap, Photography</p><br>
+        <p>Still currently underconstruction this website uses Bootstrap to construct a simple and clean e-commerce portfolio website based off of my jewelry Etsy store.</p>
+        <a href="https://github.com/catfishbluefish/allyrias"><h4>View the Github Repo</h4></a>
+      </div>
+    </div>
+  </div>
 
 
 

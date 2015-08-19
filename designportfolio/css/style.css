@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,300italic,300,400italic,600,700);
+
 body,
 div,
 ul,
@@ -27,16 +29,55 @@ body {
   box-sizing: border-box;
 }
 
-p {
-  font-size: 18px;
+
+h1 {
+  font-size: 40px;
+  font-weight: 100;
+  color: #000;
+  line-height: 48px;
+
 }
 
 
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #000;
+
+}
+
+
+h3 {
+
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+
+}
+
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4a4a4a;
+
+}
+
+
+p {
+  font-size: 18px;
+  color: #000;
+
+}
+
+.topNav li {
+  display: inline;
+}
 
 #titleContainer {
   text-align: center;
-margin-top: 25%;
-  margin-bottom: 10%;
+  margin-top: 20%;
+
 }
 
 #titleContainer h2 {
@@ -45,19 +86,19 @@ margin-top: 25%;
 
 
 #titleName {
-  font-size: 65px;
+  font-size: 70px;
 }
 /* Arrow image indicating to scroll down */
 #scrollDown {
   opacity: 0.5;
   max-width: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 25%;
 
 }
 
 
-#titleContainer p {
-  margin-top: 15%;
+#portfolio {
+  margin-top: 20%;
 }
 
 
@@ -73,34 +114,18 @@ margin-top: 25%;
 }
 
 
-/** Navbar **/
 
-header .navbar {
-  margin-bottom: 0 !important;
-}
-
-header .navbar-default {
-  background-color: #7bc8bc;
-  border: none;
-}
-
-header .navbar .navbar-default li {
-  text-align: center;
-}
-
- header .navbar-nav {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    margin-left: 40%;
+.main {
+  background-color: #f6f6f6;
 }
 
 #topImages {
-  padding-left: 20%;
+  padding-left: 10%;
 }
 
 
 #topImages img {
+  max-width: 30%;
   opacity: .7;
    border-radius:50px;
   padding: 10px;
@@ -114,11 +139,13 @@ header .navbar .navbar-default li {
 .project {
   padding-top: 5%;
   padding-bottom: 5%;
+
 }
 
 
 .project img {
   border-radius: 20px;
+  margin-top: 20px;
   margin-left: 10px;
   width: 100%;
   opacity: 0.8;

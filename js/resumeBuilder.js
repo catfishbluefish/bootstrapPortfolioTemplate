@@ -62,7 +62,7 @@ var work = {
 		title : "Specialty Pastry Cook II",
 		location : "Mashantucket, CT, US",
 		dates : "March 2013 - Sept 2013",
-		url : "https://www.flickr.com/photos/catfistori",
+		url : "http://www.foxwoods.com/default.aspx",
 		description : "The highest rank below managment in the Foxwoods Bakery that supplied desserts for all of the casino's private events, buffets, and restaurants. Responsible for the mass production of various desserts for casino events.",
 		images : ["images/pastry/foxwoods-swans-1.jpg", "images/pastry/foxwoods-cupcakes-1.jpg", "images/pastry/foxwoods-cake-1.jpg", "images/pastry/foxwoods-desserts-1.jpg"]
 	},
@@ -71,7 +71,7 @@ var work = {
 		title : "Pastry Cook",
 		location : "Pittsboro, NC, US",
 		dates : "Sept 2012 - Feb 2013",
-		url : "https://www.flickr.com/photos/catfistori",
+		url : "http://www.fearrington.com/fearrington-house-restaurant/",
 		description : "A Relais & Châteaux property and one of the top wedding destinations in the South. Morning buffet pastry cook responsible for stocking the Fearrington House cafe, production of desserts for weddings, production of after dinner chocolates, and assisting in wedding cake production.",
 		images : ["images/pastry/fearrington-macs-1.jpg", "images/pastry/fearrington-cake-1.jpg", "images/pastry/fearrington-cake-2.jpg", "images/pastry/fearrington-chocolates-1.jpg"]
 	}]
@@ -82,9 +82,9 @@ var projects = {
 	{
 		title : "Webdesign and development Projects",
 		dates	: "June 2015 - Present",
-		description : "",
-		url : "http://catfishbluefish.github.io/Project-1/",
-		images : ["images/project1-2.jpg"]
+		description : "Check out my web design portfolio for information on each project",
+		url : "catfistori.com/designportfolio",
+		images : ["images/project1-2.jpg", "designportfolio/images/project-2.jpg", "designportfolio/images/project-3.jpg", "designportfolio/images/project-4.jpg", "designportfolio/images/project-5.jpg", "designportfolio/images/allyrias-project.png"]
 	},
 	{
 		title :"Etsy Store: allyrias",
